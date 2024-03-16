@@ -1,0 +1,1111 @@
+body{
+    margin: 0;
+}
+
+nav {
+    background-color: #cccccc; /* Grey background color */
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    width: 100%;
+  }
+  
+
+nav a{
+    color: #000000; /* Black text color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Adjust margin for spacing between links */
+}
+
+
+/* Pilih Profesi Anda */
+.text {
+    position: absolute;
+    width: 374px;
+    height: 60px;
+    left: 453px;
+    top: 83px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/*INI UNTUK TENTARA */
+
+/* Group 1 untuk tentara */
+.group-1 {
+    position: absolute;
+    width: 490px;
+    height: 230px;
+    left: -50px;
+    top: -25px;
+}
+
+/* Rectangle 3 */
+.kotaktentara {
+    position: relative; 
+    width: 490px;
+    height: 180px;
+    left: 131px;
+    top: 191px;
+    background: #D5FFDD;
+    border-radius: 20px;
+}
+
+/* Rectangle 7 */
+.kotaktentara2 {
+    position: absolute; 
+    width: 240px;
+    height: 37px;
+    left: 347px;
+    top: 315px;
+    background: #399349;
+    border-radius: 15px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .kotaktentara2 div {
+    color: #fff; /* Assuming white text for better contrast */
+  }
+
+
+
+.gambartentara {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 0;
+    top: 258px;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
+
+
+/* Tentara */
+.tentara {
+    position: absolute;
+    width: 133px;
+    height: 47px;
+    left: 344px;
+    top: 202px;
+    font-family: 'Poppins', sans-serif; /* Include fallback font */
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Tentara harus kuat!! */
+.tentara-text {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 347px;
+    top: 252px;
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+/* Group 2 untuk 2 dibawah */
+.group-2 {
+    position: absolute;
+    left: 80px;
+    top: 370px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+}
+
+.box{
+    width: 235px;
+    height: 180px;
+    border-radius:  20px;
+    background: #fff4dc;
+}
+
+.box2{
+    width: 235px;
+    height: 180px;
+    border-radius:  20px;
+    background: #FFCED7;
+}
+
+
+.box3 {
+    position: absolute; 
+    width: 200px;
+    height: 37px;
+    top: 130px;
+    left: 20px;
+    background: #E29A00;
+    border-radius: 15px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.box3 div {
+    color: #fff; 
+}
+
+
+.box4 {
+    position: absolute; 
+    width: 200px;
+    height: 37px;
+    top: 340px;
+    left: 20px;
+    background: #FF5573;
+    border-radius: 15px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.box4 div {
+    color: #fff;
+}
+
+.gambarkuning {
+    position: absolute;
+    width: 173.7px;
+    height: 170px;
+    left: 30px;
+    top: 5px;
+}
+
+.gambarpink {
+    position: absolute;
+    width: 170px;
+    height: 170px;
+    left: 30px;
+    top: 215px;
+}
+
+
+
+/*Box ketiga berdiri*/
+
+.boxberdiri{
+    position: absolute;
+    width: 230px;
+    height: 392px;
+    background-color: #E2F2FF;
+    border-radius: 20px;
+    bottom: -10; 
+    left: 265px; 
+}
+
+
+.gambarbiru {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 30px;
+    bottom: 215px;
+    border-radius: 15px;
+    
+}
+
+
+/* Fotografer */
+.fotografer {
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 310px;
+    bottom: 180px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px;
+    line-height: 30px; 
+    text-align: center;
+    color: #000000;
+}
+
+/* Fotografer adalah orang yang suka memfoto */
+.fotografer-text {
+    position: absolute;
+    width: 133px;
+    height: 54px;
+    left: 310px;
+    bottom: 120px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.boxbirusaya {
+    position: absolute; 
+    width: 173px;
+    height: 37px;
+    top: 320px;
+    left: 32px;
+    background: #3279AF;
+    border-radius: 15px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.boxbirusaya {
+    color: #fff;
+}
+
+
+
+/* Part selanjutnya */
+/* Group 3 untuk 3 dikanan */
+
+.group-3 {
+    position: absolute;
+    left: 600px;
+    top: 584px;
+}
+
+.group-4 {
+    position: absolute;
+    left: 600px;
+    top: 175px;
+}
+
+
+.flex2{
+    display: flex;
+    flex-direction: row;
+    gap: 27px;
+}
+
+.boxlagi{
+    width: 499px;
+    height: 180px;
+    background-color: #F2F2F2;
+    border-radius:  15px;
+}
+
+.boxlagi2{
+    width: 503px;
+    height: 392px;
+    background-color: #F2F2F2;  
+    border-radius:  15px;
+}
+
+.racer{
+position: absolute;
+width: 120px;
+height: 120px;
+left: 14px;
+bottom: 30px;
+}
+
+.astro{
+
+position: absolute;
+width: 120px;
+height: 120px;
+left: 259px;
+top: 30px;
+
+}
+
+.textpembalap{
+
+position: absolute;
+width: 82px;
+height: 23px;
+left: 144px;
+top: 63px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 15px;
+line-height: 22px;
+color: #000000;
+
+}
+
+.textastronot{
+    /* Astronout */
+position: absolute;
+width: 82px;
+height: 23px;
+left: 389px;
+top: 63px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 15px;
+line-height: 22px;
+
+color: #000000;
+
+}
+
+
+.boxpilihracer {
+    position: absolute; 
+    width: 100px;
+    height: 55px;
+    top: 95px;
+    left: 144px;
+    background: #D8D6C1;
+    border-radius: 10px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.boxpilihracer {
+    color: #fff; 
+}
+
+.boxpilihastronot {
+position: absolute;
+width: 100px;
+height: 55px;
+top: 95px;
+left: 385px;
+background: #D8D6C1;
+border-radius: 10px;
+  
+/* Center the text within the rectangle */
+display: flex;
+justify-content: center;
+align-items: center;
+  }
+.boxpilihastronot {
+color: #fff; 
+}
+
+.boxdokter{
+box-sizing: border-box;
+position: absolute;
+width: 423px;
+height: 96px;
+left: 40px;
+top: 34px;
+background: #FFFFFF;
+border: 1px solid #D8D6C1;
+border-radius: 20px;
+
+}
+
+.boxpilot{
+
+box-sizing: border-box;
+position: absolute;
+width: 423px;
+height: 96px;
+left: 40px;
+top: 148px;
+background: #FFFFFF;
+border: 1px solid #D8D6C1;
+border-radius: 20px;
+
+}
+
+.boxilmuan{
+
+/* Rectangle 6 */
+box-sizing: border-box;
+position: absolute;
+width: 423px;
+height: 96px;
+left: 40px;
+top: 262px;
+background: #FFFFFF;
+border: 1px solid #D8D6C1;
+border-radius: 20px;
+    
+}
+
+.dokter{
+position: absolute;
+width: 70px;
+height: 70px;
+left: 56px;
+top: 47px;
+}
+
+
+.pilot{
+position: absolute;
+width: 70px;
+height: 70px;
+left: 56px;
+top: 161px;
+}
+
+.ilmuan{
+
+position: absolute;
+width: 70px;
+height: 70px;
+left: 56px;
+top: 273px;
+
+}
+
+.boxpilihsayadokter {
+
+position: absolute;
+width: 149px;
+height: 22px;
+left: 132px;
+top: 95px;
+
+background: #D8D6C1;
+border-radius: 10px;
+
+
+/* Pilih Saya */
+
+position: absolute;
+width: 100px;
+height: 16px;
+left: 157px;
+top: 98px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.boxpilihsayapilot{
+
+position: absolute;
+width: 149px;
+height: 22px;
+left: 132px;
+top: 210px;
+
+background: #D8D6C1;
+border-radius: 10px;
+
+
+/* Pilih Saya */
+
+position: absolute;
+width: 100px;
+height: 16px;
+left: 157px;
+top: 213px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.boxpilihsayailmuan{
+
+position: absolute;
+width: 149px;
+height: 22px;
+left: 132px;
+top: 321px;
+
+background: #D8D6C1;
+border-radius: 10px;
+
+
+/* Pilih Saya */
+
+position: absolute;
+width: 100px;
+height: 16px;
+left: 157px;
+top: 324px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+text-align: center;
+
+color: #FFFFFF;
+
+
+}
+
+.textdokter{
+/* Dokter */
+position: absolute;
+width: 133px;
+height: 30px;
+left: 150px;
+top: 60px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.textpilot{
+position: absolute;
+width: 133px;
+height: 30px;
+left: 150px;
+top: 174px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+}
+
+.textilmuan{
+position: absolute;
+width: 133px;
+height: 30px;
+left: 150px;
+top: 288px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 1000;
+font-size: 20px;
+line-height: 30px;
+color: #000000;
+
+}
+
+
+
+
+
+
+
+
+/*tampilan mobile*/
+
+@media only screen and (min-width:425px) {
+    .boxbarudokter, .imgbarudokter, .boxpilihsayadokterbaru,
+    .boxbarupilot, .imgbarupilot, .boxpilihsayapilotbaru,
+    .boxbaruilmuan, .imgbaruilmuan, .boxpilihsayailmuanbaru,
+    .boxbaruracer, .imgbaruracer,.boxpilihracerbaru,.imgbaruastronot,.boxpilihastronotbaru{
+        display: none;
+    }
+}
+
+
+@media only screen and (max-width: 425px) {
+    
+body{
+        margin: 0;
+}
+    
+nav {
+    display: none;
+    
+}
+      
+    
+nav a{
+    display: none;
+}
+
+
+
+/*Untuk tidak mendisplay class berikut*/
+.boxlagi, .boxlagi2, .racer,.astro, .textpembalap, .textastronot, .boxpilihracer, .boxpilihastronot{
+    display: none;
+}
+
+.boxdokter, .boxpilihsayadokter, .textdokter, .dokter{
+    display: none;
+}
+
+.boxpilot, .boxpilihsayapilot, .textpilot, .pilot{
+    display: none;
+}
+
+.boxilmuan, .boxpilihsayailmuan, .textilmuan, .ilmuan{
+    display: none;
+}
+
+
+/* Pilih Profesi Anda */
+.text {
+display: flex;
+width: 374px;
+height: 60px;
+left: 110px;  
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 60px;
+text-align: center;
+color: #000000;
+
+}
+
+
+/* Group 1 untuk tentara */
+.group-1 {
+    
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+ 
+}
+
+.group-2 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 380px;
+    top: 200px;
+    left: 135px;
+
+}
+
+.group-3 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    margin-top: 20px;
+    left: 80px;
+    top: 1500px;
+}
+
+.group-4 {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    left: 80px;
+    top: 2050px;
+}
+
+
+/* Rectangle 3 */
+.kotaktentara {
+    position: absolute;
+    width: 289px;
+    height: 299px;
+    left: 156px;
+    top: 275px;
+    background: #D5FFDD;
+    border-radius: 20px;
+}
+
+
+
+.kotaktentara2 {
+background: #399349;
+border-radius: 15px;
+/* Pilih Saya */
+position: absolute;
+width: 220px;
+height: 50px;
+left: 190px;
+top: 450px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+  
+
+.kotaktentara2 div {
+color: #fff; 
+}
+
+
+/* Image 2 */
+.gambartentara {
+    position: absolute;
+    width: 230px;
+    height: 230px;
+    left: 120px;
+    top: 350px;
+    margin: auto;
+}
+
+/* Tentara */
+.tentara {
+    position: absolute;
+    width: 133px;
+    height: 47px;
+    left: 230px;
+    top: 500px;
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/* Tentara harus kuat!! */
+.tentara-text {
+    position: absolute;
+    width: 240px;
+    height: 21px;
+    left: 240px;
+    top: 540px;
+    font-family: 'Poppins', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #000000;
+}
+
+/*untuk fotografer*/
+
+.boxberdiri{
+    position: absolute;
+    width: 230px;
+    height: 392px;
+    background-color: #E2F2FF;
+    border-radius: 20px;
+    top: 420px; 
+    left: 0px; 
+}
+
+
+.boxbirusaya {
+    position: absolute; /* Keep absolute for positioning within .group-2 */
+    height: 37px;
+    top: 165px;
+    left: 32px;
+    background: #3279AF;
+    border-radius: 15px;
+  
+    /* Center the text within the rectangle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.boxbirusaya {
+    color: #fff; 
+}
+
+
+
+.gambarbiru {
+    position: absolute;
+    width: 160px;
+    height: 160px;
+    left: 40px;
+    bottom: 215px;
+    border-radius: 15px;
+    
+}
+
+
+
+/* Fotografer */
+.fotografer {
+    position: absolute;
+    width: 133px;
+    height: 30px;
+    left: 50px;
+    top: 640px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px;
+    line-height: 30px; 
+    text-align: center;
+    color: #000000;
+}
+
+/* Fotografer adalah orang yang suka memfoto */
+.fotografer-text {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 45px;
+    top: 680px; 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+
+/*untuk dokter pilot dan ilmuan*/
+
+
+.boxbarudokter{
+position: absolute;
+width: 288.53px;
+left: 25px;
+height: 221px;
+bottom: 400px;
+
+background: #E9E8E2;
+border-radius: 20px;
+}
+
+.imgbarudokter{
+position: absolute;
+width: 213px;
+height: 213px;
+left: 68px;
+bottom: 400px;
+}
+
+.boxpilihsayadokterbaru{
+position: absolute;
+width: 200px;
+height: 33.15px;
+left: 68px;
+bottom: 410px;
+background: #CAC8B3;
+border-radius: 15px;
+
+/* Pilih Saya */
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+
+.boxbarupilot{
+position: absolute;
+width: 288.53px;
+height: 221px;
+left: 25px;
+bottom: 150px;
+
+background: #E9E8E2;
+border-radius: 20px;
+
+}
+
+.imgbarupilot{
+position: absolute;
+width: 213px;
+height: 213px;
+left: 68px;
+bottom: 150px;
+}
+
+.boxpilihsayapilotbaru{
+    position: absolute;
+    width: 200px;
+    height: 33.15px;
+    left: 68px;
+    bottom: 160px;
+    background: #CAC8B3;
+    border-radius: 15px;
+    
+    /* Pilih Saya */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+.boxbaruilmuan{
+    position: absolute;
+    width: 288.53px;
+    height: 221px;
+    left: 105px;
+    top: 1925px;
+    
+    background: #E9E8E2;
+    border-radius: 20px;
+}
+
+
+.imgbaruilmuan{
+    position: absolute;
+    width: 213px;
+    height: 213px;
+    left: 150px;
+    top: 1934px;
+}
+
+.boxpilihsayailmuanbaru{
+    position: absolute;
+    width: 200px;
+    height: 33.15px;
+    left: 150px;
+    top: 2100px;
+    background: #CAC8B3;
+    border-radius: 15px;
+    
+    /* Pilih Saya */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
+
+
+/*untuk Racer dan astronot*/
+
+.boxbaruracer{
+
+position: absolute;
+width: 288.53px;
+height: 221px;
+left: 25px;
+top: 650px;
+background: #FFDBC5;
+border-radius: 20px;
+
+}
+
+.imgbaruracer{
+
+/* image 9 */
+position: absolute;
+width: 213px;
+height: 213px;
+left: 60px;
+top: 660px;
+}
+
+.boxpilihracerbaru{
+background: #E36415;
+border-radius: 15px;
+/* Pilih Saya */
+position: absolute;
+width: 200px;
+height: 33.15px;
+left: 70px;
+top: 820px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+    
+}
+
+
+.boxbaruastronot{
+
+position: absolute;
+width: 288.53px;
+height: 221px;
+left: 25px;
+top: 900px;
+background: #8FC5ED;
+border-radius: 20px;
+    
+}
+
+.imgbaruastronot{
+position: absolute;
+width: 213px;
+height: 213px;
+left: 60px;
+top: 910px;
+padding-bottom: 20px;
+
+}
+
+.boxpilihastronotbaru{
+position: absolute;
+width: 200px;
+height: 33.15px;
+left: 60px;
+top: 1089px;
+
+background: #275E87;
+border-radius: 15px;
+
+
+/* Pilih Saya */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+
+}
+
+
+
+}
+
